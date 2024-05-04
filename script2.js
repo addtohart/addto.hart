@@ -18,6 +18,7 @@ searchIcon.addEventListener("click", function() {
 
 .about-video {
     flex: 1;
+    margin-right: 20px;
 }
 
 .about-video video {
