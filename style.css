@@ -172,6 +172,15 @@ nav ul li a {
     background-size: cover;
     background-position: center;
 }
+
+.creatext
+{
+				     @media screen and (max-width: 768px) {
+				            h1 {
+				                font-size: 200%; /* Decrease font size for smaller screens */
+				            }
+		
+}
 .heading{
     text-align: center;
 }
