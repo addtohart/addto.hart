@@ -458,11 +458,11 @@ font-size: 200%; /* Decrease font size for smaller screens */ }
         font-size: 10px;
     }
 
-    @media (max-width: 375px) {
+@media (max-width: 375px) {
     /* Adjustments for smaller screens */
-h1.creatext {		         
-font-size: 200%; /* Decrease font size for smaller screens */ }		
-
+    h1.creatext {
+        font-size: 200%; /* Decrease font size for smaller screens */
+    }
     header {
         padding: 18px 20px; /* Adjust padding for smaller screens */
     }
@@ -470,7 +470,7 @@ font-size: 200%; /* Decrease font size for smaller screens */ }
         padding: 50px 20px; /* Adjust padding for smaller screens */
     }
     .home-text h1 {
-        font-size: 2.4rem; /* Adjust font size for smaller screens */
+        font-size: 2rem; /* Adjust font size for smaller screens */
     }
     .products-container .box {
         padding: 20px; 
@@ -478,40 +478,42 @@ font-size: 200%; /* Decrease font size for smaller screens */ }
     .home-img {
         max-width: 300px;
         display: grid;
-        align-content: left
+        align-content: left;
     }
-    .products h2{
-        font-size: 10px;
+    .products h2 {
+        font-size: 1rem; /* Adjust font size for smaller screens */
     }
     .navbar {
-    margin-left: auto;
-    color: var(--blue-color);
-    font-size: 0.5rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    list-style-type: none;
+        margin-left: auto;
+        color: var(--blue-color);
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+        text-transform: uppercase;
+        font-weight: 600;
+        list-style-type: none;
     }
     .logo img {
-        max-width: 50px
+        max-width: 50px;
     }
     .home {
         display: grid;
     }
-    .about{
-    background-color: #DACCD0;
-    background-size: auto;
-    display: inline-flex;
-    grid-template-columns: repeat(auto-fit,minmax(9rem,auto));
-    align-items: center;
-    gap: 1rem;
-    font-size: 10px;
+    .about {
+        background-color: #DACCD0;
+        background-size: auto;
+        display: inline-flex;
+        grid-template-columns: repeat(auto-fit, minmax(9rem, auto));
+        align-items: center;
+        gap: 1rem;
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
     }
-    .about-img{
-        max-width:190px;
+    .about-img {
+        max-width: 190px;
     }
     .about-text {
-        font-size: 10px;
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
     }
+}
+
 
     @media (max-width: 430px) {
     /* Adjustments for smaller screens */
