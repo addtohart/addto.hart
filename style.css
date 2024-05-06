@@ -156,6 +156,13 @@ nav ul li a {
     margin: 0 auto;
 
 }
+
+section {
+    background-image: url(https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/437783947_1384468292270611_8135118702058082808_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Yi_jbHoXsXsAb7KdWTE&_nc_ht=scontent.fmnl17-3.fna&oh=03_AdXmodRcLx4ToSxFJ9SMfwRiLWCefyKvEeZ81NzRtPFO7A&oe=6645CCB3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .heading{
     text-align: center;
 }
