@@ -158,15 +158,6 @@ nav ul li a {
 }
 
 .create {
-@media only screen and (max-width: 600px) {
-            /* Adjust font sizes for smaller screens */
-            h1 {
-                font-size: 200%;
-            }
-            p {
-                font-size: 80%;
-            }
-        }
     background-image: url(https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/437783947_1384468292270611_8135118702058082808_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Yi_jbHoXsXsAb7KdWTE&_nc_ht=scontent.fmnl17-3.fna&oh=03_AdXmodRcLx4ToSxFJ9SMfwRiLWCefyKvEeZ81NzRtPFO7A&oe=6645CCB3);
     background-repeat: no-repeat;
     background-size: cover;
@@ -389,9 +380,8 @@ width: 100%;}
     }
 }
 @media (max-width: 768px) {
-	.creatext
-{
-				         
+.creatext
+{			         
    h1 { font-size: 200%; /* Decrease font size for smaller screens */ }		
 }
     /* Adjustments for smaller screens */
@@ -415,10 +405,8 @@ width: 100%;}
     }
 
     @media (max-width: 414px) {
-	    .creatext
-{
-				         
-   h1 { font-size: 200%; /* Decrease font size for smaller screens */ }		
+	    .creatext h1
+{font-size: 200%; /* Decrease font size for smaller screens */ }		
 }
     /* Adjustments for smaller screens */
     header {
@@ -473,11 +461,10 @@ width: 100%;}
 
     @media (max-width: 375px) {
     /* Adjustments for smaller screens */
-	    .creatext
+	    .creatext h1
 {
-				         
-   h1 { font-size: 200%; /* Decrease font size for smaller screens */ }		
-}
+font-size: 200%; /* Decrease font size for smaller screens */ }		
+
     header {
         padding: 18px 20px; /* Adjust padding for smaller screens */
     }
