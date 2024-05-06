@@ -380,10 +380,9 @@ width: 100%;}
     }
 }
 @media (max-width: 768px) {
-.creatext
-{			         
-   h1 { font-size: 200%; /* Decrease font size for smaller screens */ }		
-}
+h1.creatext {		         
+font-size: 200%; /* Decrease font size for smaller screens */ }		
+
     /* Adjustments for smaller screens */
     header {
         padding: 18px 20px; /* Adjust padding for smaller screens */
@@ -405,8 +404,8 @@ width: 100%;}
     }
 
     @media (max-width: 414px) {
-	    .creatext h1
-{font-size: 200%; /* Decrease font size for smaller screens */ }		
+h1.creatext {		         
+font-size: 200%; /* Decrease font size for smaller screens */ }		
 
     /* Adjustments for smaller screens */
     header {
@@ -461,8 +460,7 @@ width: 100%;}
 
     @media (max-width: 375px) {
     /* Adjustments for smaller screens */
-.creatext h1
-{
+h1.creatext {		         
 font-size: 200%; /* Decrease font size for smaller screens */ }		
 
     header {
@@ -518,11 +516,8 @@ font-size: 200%; /* Decrease font size for smaller screens */ }
     @media (max-width: 430px) {
     /* Adjustments for smaller screens */
 
-	.creatext
-{
-				         
-   h1 { font-size: 200%; /* Decrease font size for smaller screens */ }		
-}
+h1.creatext {		         
+font-size: 200%; /* Decrease font size for smaller screens */ }	
     header {
         padding: 18px 20px; /* Adjust padding for smaller screens */
     }
@@ -574,9 +569,8 @@ font-size: 200%; /* Decrease font size for smaller screens */ }
     }
 
  @media only screen and (max-width: 600px) {
-	 .creatext h1 { font-size: 200%; /* Decrease font size for smaller screens */ }		
-
-    /* Adjust font sizes for smaller screens */
+	h1.creatext {		         
+font-size: 200%; /* Decrease font size for smaller screens */ }	
     h1 {
         font-size: 200%;
     }
