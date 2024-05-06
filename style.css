@@ -552,3 +552,14 @@ width: 100%;}
     .about-text {
         font-size: 10px;
     }
+
+ @media only screen and (max-width: 600px) {
+    /* Adjust font sizes for smaller screens */
+    h1 {
+        font-size: 200%;
+    }
+    p {
+        font-size: 80%;
+    }
+}
+		
